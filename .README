@@ -1,0 +1,16 @@
+                                                             This project contain  Two Tasks (event && Nudges)
+
+
+1- put your .env command 
+2- run npm init 
+
+
+3-Documentation  for Nudges
+
+- fields i need for Nudges is [eventId,title,description,sendTime,invitationLink,icon,coverImage]
+
+- fisrt i make createNudge endpoint  using here Post Method .
+- second i make deleteNudge endpoint using here delete Method .
+- Third i make getNudgeById endpoint using here get Method .
+- fourth i make getAllNudgesBy using pagination using here get Method .
+- Fifth  i make updateNudges endpoint using put Method .

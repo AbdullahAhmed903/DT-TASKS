@@ -1,0 +1,30 @@
+{
+  "name": "express-mongodb-app",
+  "version": "1.0.0",
+  "description": "A Node.js application using Express and MongoDB",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "imagekit": "^6.0.0",
+    "mongodb": "^6.3.0",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
